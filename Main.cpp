@@ -14,7 +14,7 @@
 
 float angle = 0.0, yAngle = 0.0;
 float lx = 0.0f, ly = 0.0f, lz = -1.0f;
-float x = -5.0f, z = 18.0f;
+float x = 14.0f,  z = -7.5f;
 float roll = 0.0f;
 float halfWidth = (float)(WINDOW_WIDTH / 2.0);
 float halfHeight = (float)(WINDOW_HEIGHT / 2.0);
@@ -616,60 +616,58 @@ void renderScene(void) {
        glVertex3f(-10.0f, 0.0f, 10.0f);
        glEnd();
 
-       //right inside wall
+       //right wall with door
        glColor3f(0.6f, 0.9f, 0.9f); // light teal
        glBegin(GL_QUADS);
        glVertex3f(10.0f, 0.0f, -10.0f);
        glVertex3f(10.0f, 7.0f, -10.0f);
+       glVertex3f(10.0f, 7.0f, -9.0f);
+       glVertex3f(10.0f, 0.0f, -9.0f);
+       glEnd();
+
+       glColor3f(0.6f, 0.9f, 0.9f); // light teal
+       glBegin(GL_QUADS);
+       glVertex3f(10.0f, 0.0f, -6.0f);
+       glVertex3f(10.0f, 7.0f, -6.0f);
        glVertex3f(10.0f, 7.0f, 10.0f);
        glVertex3f(10.0f, 0.0f, 10.0f);
        glEnd();
 
+       glColor3f(0.6f, 0.9f, 0.9f); // light teal
+       glBegin(GL_QUADS);
+       glVertex3f(10.0f, 5.0f, -9.0f);
+       glVertex3f(10.0f, 7.0f, -9.0f);
+       glVertex3f(10.0f, 7.0f, -6.0f);
+       glVertex3f(10.0f, 5.0f, -6.0f);
+       glEnd();
 
-        //wall with door
+       glColor3f(0.2f, 0.2f, 0.2f); //dark grey
+       glLineWidth(30.0f);
+       glBegin(GL_LINES);
+       glVertex3f(10.0f, 5.0f, -8.98f);
+       glVertex3f(10.0f, 0.0f, -8.98f);
+       glEnd();
+
+       glBegin(GL_LINES);
+       glVertex3f(10.0f, 5.0f, -6.02f);
+       glVertex3f(10.0f, 0.0f, -6.02f);
+       glEnd();
+
+       glBegin(GL_LINES);
+       glVertex3f(10.0f, 5.0f, -9.0f);
+       glVertex3f(10.0f, 5.0f, -6.0f);
+       glEnd();
+
+
+
+        //back wall 
        glColor3f(0.5f, 0.5f, 0.5f); //medium grey
         glBegin(GL_QUADS);
         glVertex3f(-10.0f, 0.0f, 10.0f);
         glVertex3f(-10.0f, 7.0f, 10.0f);
-        glVertex3f(-6.0f, 7.0f, 10.0f);
-        glVertex3f(-6.0f, 0.0f, 10.0f);
-        glEnd();
-
-       glColor3f(0.5f, 0.5f, 0.5f); //medium grey
-        glBegin(GL_QUADS);
-        glVertex3f(-3.0f, 0.0f, 10.0f);
-        glVertex3f(-3.0f, 7.0f, 10.0f);
         glVertex3f(10.0f, 7.0f, 10.0f);
         glVertex3f(10.0f, 0.0f, 10.0f);
         glEnd();
-
-      glColor3f(0.5f, 0.5f, 0.5f); //medium grey
-      //glColor3f(0.2f, 0.2f, 0.2f); //dark grey
-        glBegin(GL_QUADS);
-        glVertex3f(-6.0f, 7.0f, 10.0f);
-        glVertex3f(-6.0f, 5.0f, 10.0f);
-        glVertex3f(-3.0f, 5.0f, 10.0f);
-        glVertex3f(-3.0f, 7.0f, 10.0f);
-        glEnd();
-
-      //glColor3f(0.5f, 0.5f, 0.5f); //medium grey
-      glColor3f(0.2f, 0.2f, 0.2f); //dark grey
-        glLineWidth(30.0f);
-        glBegin(GL_LINES);
-        glVertex3f(-6.0f, 5.0f, 10.01f);
-        glVertex3f(-3.0f, 5.0f, 10.01f);
-        glEnd();
-
-        glBegin(GL_LINES);
-        glVertex3f(-6.0f, 5.0f, 10.01f);
-        glVertex3f(-6.0f, 0.0f, 10.01f);
-        glEnd();
-
-        glBegin(GL_LINES);
-        glVertex3f(-3.0f, 0.0f, 10.01f);
-        glVertex3f(-3.0f, 5.0f, 10.01f);
-        glEnd();
-
 
        
         // Ceiling
