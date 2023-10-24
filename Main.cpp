@@ -149,23 +149,23 @@ public:
 
 
         glVertex3f(-10.0f, -0.2f, 2.0f);
-        glVertex3f(4.0f, -0.2f, 2.0f);
-        glVertex3f(4.0f, 0.2f, 2.0f);
+        glVertex3f(10.0f, -0.2f, 2.0f);
+        glVertex3f(10.0f, 0.2f, 2.0f);
         glVertex3f(-10.0f, 0.2f, 2.0f);
 
         //Back
         //;
         glVertex3f(-10.0f, -0.2f, -2.0f);
         glVertex3f(-10.0f, 0.2f, -2.0f);
-        glVertex3f(4.0f, 0.2f, -2.0f);
-        glVertex3f(4.0f, -0.2f, -2.0f);
+        glVertex3f(10.0f, 0.2f, -2.0f);
+        glVertex3f(10.0f, -0.2f, -2.0f);
 
         //Right
         //
-        glVertex3f(4.0f, -0.2f, -2.0f);
-        glVertex3f(4.0f, 0.2f, -2.0f);
-        glVertex3f(4.0f, 0.2f, 2.0f);
-        glVertex3f(4.0f, -0.2f, 2.0f);
+        glVertex3f(10.0f, -0.2f, -2.0f);
+        glVertex3f(10.0f, 0.2f, -2.0f);
+        glVertex3f(10.0f, 0.2f, 2.0f);
+        glVertex3f(10.0f, -0.2f, 2.0f);
 
 
         //Left
@@ -178,64 +178,64 @@ public:
         //top
         //
 
-        glVertex3f(4.0f, 0.2f, 2.0f);
+        glVertex3f(10.0f, 0.2f, 2.0f);
         glVertex3f(-10.0f, 0.2f, 2.0f);
         glVertex3f(-10.0f, 0.2f, -2.0f);
-        glVertex3f(4.0f, 0.2f, -2.0f);
+        glVertex3f(10.0f, 0.2f, -2.0f);
 
         //bottom
         ;
 
-        glVertex3f(4.0f, -0.2f, 2.0f);
+        glVertex3f(10.0f, -0.2f, 2.0f);
         glVertex3f(-10.0f, -0.2f, 2.0f);
         glVertex3f(-10.0f, -0.2f, -2.0f);
-        glVertex3f(4.0f, -0.2f, -2.0f);
+        glVertex3f(10.0f, -0.2f, -2.0f);
 
         //table front leg
         //front    
       // glColor3f(0.1f, 0.1f, 0.1f); // light black  
        glColor3f(0.1f, 0.1f, 0.1f);
 
-        glVertex3f(3.8f, -0.2f, 1.6f);
-        glVertex3f(3.4f, -0.2f, 1.6f);
-        glVertex3f(3.4f, -3.0f, 1.6f);
-        glVertex3f(3.8f, -3.0f, 1.6f);
+        glVertex3f(9.8f, -0.2f, 1.6f);
+        glVertex3f(9.4f, -0.2f, 1.6f);
+        glVertex3f(9.4f, -3.0f, 1.6f);
+        glVertex3f(9.8f, -3.0f, 1.6f);
         //back
-        glVertex3f(3.8f, -0.2f, 1.2f);
-        glVertex3f(3.4f, -0.2f, 1.2f);
-        glVertex3f(3.4f, -3.0f, 1.2f);
-        glVertex3f(3.8f, -3.0f, 1.2f);
+        glVertex3f(9.8f, -0.2f, 1.2f);
+        glVertex3f(9.4f, -0.2f, 1.2f);
+        glVertex3f(9.4f, -3.0f, 1.2f);
+        glVertex3f(9.8f, -3.0f, 1.2f);
         //right
-        glVertex3f(3.8f, -0.2f, 1.6f);
-        glVertex3f(3.8f, -0.2f, 1.2f);
-        glVertex3f(3.8f, -3.0f, 1.2f);
-        glVertex3f(3.8f, -3.0f, 1.6f);
+        glVertex3f(9.8f, -0.2f, 1.6f);
+        glVertex3f(9.8f, -0.2f, 1.2f);
+        glVertex3f(9.8f, -3.0f, 1.2f);
+        glVertex3f(9.8f, -3.0f, 1.6f);
         //left
-        glVertex3f(3.4f, -0.2f, 1.6f);
-        glVertex3f(3.4f, -0.2f, 1.2f);
-        glVertex3f(3.4f, -3.0f, 1.2f);
-        glVertex3f(3.4f, -3.0f, 1.6f);
+        glVertex3f(9.4f, -0.2f, 1.6f);
+        glVertex3f(9.4f, -0.2f, 1.2f);
+        glVertex3f(9.4f, -3.0f, 1.2f);
+        glVertex3f(9.4f, -3.0f, 1.6f);
         //back leg back
         //front
-        glVertex3f(3.8f, -0.2f, -1.2f);
-        glVertex3f(3.4f, -0.2f, -1.2f);
-        glVertex3f(3.4f, -3.0f, -1.2f);
-        glVertex3f(3.8f, -3.0f, -1.2f);
+        glVertex3f(9.8f, -0.2f, -1.2f);
+        glVertex3f(9.4f, -0.2f, -1.2f);
+        glVertex3f(9.4f, -3.0f, -1.2f);
+        glVertex3f(9.8f, -3.0f, -1.2f);
         //back
-        glVertex3f(3.8f, -0.2f, -1.6f);
-        glVertex3f(3.4f, -0.2f, -1.6f);
-        glVertex3f(3.4f, -3.0f, -1.6f);
-        glVertex3f(3.8f, -3.0f, -1.6f);
+        glVertex3f(9.8f, -0.2f, -1.6f);
+        glVertex3f(9.4f, -0.2f, -1.6f);
+        glVertex3f(9.4f, -3.0f, -1.6f);
+        glVertex3f(9.8f, -3.0f, -1.6f);
         //right
-        glVertex3f(3.8f, -0.2f, -1.6f);
-        glVertex3f(3.8f, -0.2f, -1.2f);
-        glVertex3f(3.8f, -3.0f, -1.2f);
-        glVertex3f(3.8f, -3.0f, -1.6f);
+        glVertex3f(9.8f, -0.2f, -1.6f);
+        glVertex3f(9.8f, -0.2f, -1.2f);
+        glVertex3f(9.8f, -3.0f, -1.2f);
+        glVertex3f(9.8f, -3.0f, -1.6f);
         //left
-        glVertex3f(3.4f, -0.2f, -1.6f);
-        glVertex3f(3.4f, -0.2f, -1.2f);
-        glVertex3f(3.4f, -3.0f, -1.2f);
-        glVertex3f(3.4f, -3.0f, -1.6f);
+        glVertex3f(9.4f, -0.2f, -1.6f);
+        glVertex3f(9.4f, -0.2f, -1.2f);
+        glVertex3f(9.4f, -3.0f, -1.2f);
+        glVertex3f(9.4f, -3.0f, -1.6f);
         //leg left front
         glVertex3f(-9.8f, -0.2f, 1.6f);
         glVertex3f(-9.4f, -0.2f, 1.6f);
@@ -684,7 +684,7 @@ void renderScene(void) {
         Table studentTable[4][4];
         for (int i = -3; i <= 3; i += 2) {
             glPushMatrix();
-            glTranslatef(8 + 0.3f, 1.2f, i * 2.0 + 1.2f);
+            glTranslatef(5.5 + 0.3f, 1.2f, i * 2.0 + 1.2f);
             glScalef(0.4f, 0.4f, 0.4f);
             // glRotatef(180.0, 0.0, 1.0, 0.0);
             studentTable[0][0].drawTable();
@@ -699,24 +699,26 @@ void renderScene(void) {
             glPopMatrix();
         }
 
-        ////Draw student chairs
+        //Draw student chairs
+        //Left side
         Chair studentChair;
-        int a = -7.5;
-        for (int i = 0; i <= 6; i += 2) {
+        int a = -7;
+        for (int i = 8; i <= 14; i += 2) {
             a = a + 4;
-            for (int i = 4; i <= 8; i += 2) {
+            for (int i = 2; i <= 8; i += 2) {
                 glPushMatrix();
-                glTranslatef(i * 1 + 1.2f + 0.3f, 0.8f, a);
+                glTranslatef(i * 1 + 1.1f + 0.3f, 0.8f, a);
                 glScalef(0.25f, 0.25f, 0.25f);
                 glRotatef(180.0, 0.0, 1.0, 0.0);
                 studentChair.drawChair();
                 glPopMatrix();
             }
         }
+        //Right side
         int b = -7.5;
         for (int i = 0; i <= 6; i += 2) {
             b = b + 4;
-            for (int i = -8; i <= -4; i += 2) {
+            for (int i = -8; i <= -2; i += 2) {
                 glPushMatrix();
                 glTranslatef(i * 1 - 1.2f + 0.3f, 0.8f, b);
                 glScalef(0.25f, 0.25f, 0.25f);
